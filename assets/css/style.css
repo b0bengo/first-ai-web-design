@@ -1,13 +1,17 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Handlee', cursive;
 }
 
-General Styling
-body{
-
-} */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 /* Navbar Styling */
 .navbar-nav .active {
@@ -23,18 +27,35 @@ body{
     color: #3B2F2F;
 }
 
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('../images/hero.png') no-repeat center center;
+/* Header */
+
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #FFEBD4;
-    padding: 100px 0;
+    padding: 8rem 0;
 }
 
-.hero-section h1 {
-    font-family: 'Handlee', cursive;
-}
 
 .btn {
     color: #3B2F2F;
+}
+
+/* Our Services Section */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: #6F4E37;
+    color: #FFEBD4;
 }
