@@ -14,6 +14,12 @@ body {
 }
 
 /* Navbar Styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .navbar-nav .active {
     font-weight: bold;
 }
@@ -43,6 +49,11 @@ body {
     color: #3B2F2F;
 }
 
+/* Main */
+main {
+    margin: 2rem 0;
+}
+
 /* Our Services Section */
 .card {
     border: none;
@@ -54,7 +65,7 @@ body {
 }
 
 /* Footer */
-footer {
+footer{
     margin-top: auto;
     background-color: #6F4E37;
     color: #FFEBD4;
