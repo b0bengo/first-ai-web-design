@@ -64,6 +64,17 @@ main {
     object-fit: cover;
 }
 
+/* Testimonials Section */
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+}
+
+.rounded-image {
+    border-radius: 15px;
+    /* Adjust the px value as needed */
+}
+
 /* Footer */
 .footer{
     margin-top: auto;
